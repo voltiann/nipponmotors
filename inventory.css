@@ -1,0 +1,50 @@
+.brand-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.brand-box {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(3, 3, 3, 0.493); 
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.brand-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.brand-box img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brand-box:hover img {
+    transform: scale(1.1);
+}
+
+.brand-box p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.brand-box:hover p {
+    color: #ff4081;
+}
+
+.brand-box p {
+    color: #fff;
+}

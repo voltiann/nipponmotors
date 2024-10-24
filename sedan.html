@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM SUV Dealership</title>
+    <link rel="stylesheet" href="CARCSS.css">
+    <link rel="stylesheet" href="SINGLECSS.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="NIPPON.png" alt="JDM SUV Dealership Logo" width="300px">
+        </div>
+
+        <div class="nav1">
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="inventory.html">INVENTORY</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="car-container">
+        <div class="car-box">
+            <img src="toyota_corolla.png" alt="Toyota Corolla" class="car-image">
+            <p class="car-name">TOYOTA COROLLA</p>
+            <p class="car-price">Php 1,800,000 – 2,200,000</p>
+            <div class="LOGO1">
+            <img src="TOYOTALOGO.png" alt="Toyota Logo" width="120px">
+            </div>
+            <button class="show-info-btn">Show Information</button>
+        </div>
+        <div class="car-box">
+            <img src="honda_civic.png" alt="Honda Civic" class="car-image">
+            <p class="car-name">HONDA Civic</p>
+            <p class="car-price">Php 1,750,000 – 2,100,000</p>
+            <div class="LOGO1">
+            <img src="HONDALOGO.png" alt="Honda Logo" width="120px">
+            </div>
+            <button class="show-info-btn">Show Information</button>
+        </div>
+        <div class="car-box">
+            <img src="nissan_altima.png" alt="Nissan Altima" class="car-image">
+            <p class="car-name">NISSAN Altima</p>
+            <p class="car-price">Php 1,600,000 – 1,900,000</p>
+            <div class="LOGO1">
+            <img src="NISSANLOGO.png" alt="Nissan Logo" width="120px">
+            </div>
+            <button class="show-info-btn">Show Information</button>
+        </div>
+        <div class="car-box">
+            <img src="mazda_3.png" alt="Mazda 3" class="car-image">
+            <p class="car-name">MAZDA 3</p>
+            <p class="car-price">Php 1,700,000 – 2,000,000</p>
+            <div class="LOGO1">
+            <img src="MAZDALOGO.png" alt="Mazda Logo" width="120px">
+            </div>
+            <button class="show-info-btn">Show Information</button>
+        </div>
+    </div>
+
+    <div id="car-info-modal" class="car-info-modal" style="display: none;">
+        <div class="car-info-content">
+            <h2 id="car-info-title"></h2>
+            <img id="car-info-image" src="" alt="Car image" style="width: 100%; height: auto;">
+            <p id="car-info-price"></p>
+            <p id="car-info-description"></p>
+        </div>
+        <button id="close-info-btn">Close</button>
+    </div>
+
+    <video autoplay muted loop id="hero-video">
+        <source src="CARMAIN.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <main>
+        <div class="button-container">
+            <h1> Go back?</h1>
+            <a href="inventory.html" class="button">VIEW INVENTORY</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JDM SUV Dealership</p>
+    </footer>
+
+    <script src="CARJAVA.js"></script>
+</body>
+</html>

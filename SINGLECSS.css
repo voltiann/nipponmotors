@@ -1,0 +1,52 @@
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.car-box {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #14141457;
+    border-radius: 10px;
+}
+
+.car-box:hover {
+    transform: scale(1.05);
+} 
+.car-image {
+    width: 80%;
+    height: 125px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+.car-name {
+    font-weight: 1000;
+    margin-bottom: 5px;
+    color:white
+}
+
+.car-price {
+    color: white;
+}
+
+.LOGO1 {
+    text-align:center;
+}
+
+.show-info-btn {
+    background-color: #ff4081; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
